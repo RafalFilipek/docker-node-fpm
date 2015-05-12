@@ -1,5 +1,5 @@
-FROM  bradrydzewski/node:0.10
-MAINTAINER github@wuub.net
+FROM  node:0.12
+MAINTAINER rafal.filipek@gmail.com
 
 RUN sudo apt-get update
 RUN sudo apt-get install ruby ruby-dev rpm
